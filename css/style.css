@@ -16,7 +16,8 @@ body {
 	font-weight: normal;
 	margin-top: 150px;
 	margin-bottom: 0px;
-	display: inline-block;
+	display: block;
+	position: absolute;
 	text-align: center;
 }
 .center{
@@ -119,4 +120,41 @@ nav .google:hover {
 .background {
 
 
+}
+.fun {
+	display: none;
+}
+
+@media (max-width: 767px){
+
+	.container {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+
+	.one {
+		background: url(../images/rcarey.png) no-repeat 64% 50%;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	nav .twitter,
+	nav .linkedin,
+	nav .google,
+	nav .youtube {
+		display: inline-block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.main {
+		display: block;
+		width: 100%;
+		position: relative;
+		margin-top: 0;
+		margin-left: 0;
+
+	}
 }
