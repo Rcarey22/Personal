@@ -1,4 +1,5 @@
 body {
+	background-color: gray;
 	margin: 0;
 }
 .one {
@@ -135,9 +136,12 @@ nav .google:hover {
 	}
 
 	.one {
-		background: url(../images/rcarey.png) no-repeat 64% 50%;
+		background-position: 64% 50%;
+		background-repeat: no-repeat;
 		background-size: cover;
 		height: 50vh;
+		font-size: .5em;
+		margin-bottom: 325px;
 		
 	}
 
@@ -156,7 +160,7 @@ nav .google:hover {
 		position: relative;
 		margin-top: 0;
 		margin-left: 0;
-		padding-top: 325px;
+		padding-top: 400px;
 
 
 
@@ -167,7 +171,5 @@ nav .google:hover {
 		margin-top: 0;
 		
 	}
-	.background {
-		padding-top: 300px;
-	}
+	
 }
