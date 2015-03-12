@@ -170,6 +170,13 @@ nav .google:hover {
 	.name {
 		margin-top: 0;
 		
+
 	}
-	
+	.about {
+		font-size: 1.25em;
+	}
+	.center {
+		font-size: 2em;
+	}
+
 }
