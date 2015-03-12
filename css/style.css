@@ -138,6 +138,7 @@ nav .google:hover {
 		background: url(../images/rcarey.png) no-repeat 64% 50%;
 		background-size: cover;
 		height: 50vh;
+		
 	}
 
 	nav .twitter,
@@ -155,11 +156,18 @@ nav .google:hover {
 		position: relative;
 		margin-top: 0;
 		margin-left: 0;
+		padding-top: 325px;
 
 
+
+	}
+	
 	}
 	.name {
 		margin-top: 0;
 		
+	}
+	.background {
+		padding-top: 300px;
 	}
 }
