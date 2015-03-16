@@ -129,7 +129,7 @@ nav .google:hover {
 	display: none;
 }
 
-@media (max-width: 863px){
+@media (max-width: 768px){
 
 	.container {
 		display: block;
