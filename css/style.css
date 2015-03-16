@@ -100,6 +100,7 @@ nav .google:hover {
 	font-weight: bold;
 	margin-left: 2px;
 	text-align: center;
+
 }
 
 
@@ -110,11 +111,13 @@ nav .google:hover {
 	font-family: 'Raleway', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	line-height: 3.5;
+	line-height: 2.5;
 	text-align: center;
 	padding: 20px;
 	font-size: x-large;
 	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
 
 }
 
@@ -126,7 +129,7 @@ nav .google:hover {
 	display: none;
 }
 
-@media (max-width: 767px){
+@media (max-width: 863px){
 
 	.container {
 		display: block;
