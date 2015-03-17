@@ -143,8 +143,63 @@ nav .google:hover {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 50vh;
+		font-size: .75em;
+		margin-bottom: 375px;
+		
+	}
+
+	nav .twitter,
+	nav .linkedin,
+	nav .google,
+	nav .youtube {
+		display: inline-block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.main {
+		display: block;
+		width: 100%;
+		position: relative;
+		margin-top: 0;
+		margin-left: 0;
+		padding-top: 375px;
+
+
+
+	}
+	
+	}
+	.name {
+		margin-top: 0;
+		
+
+	}
+	.about {
+		font-size: 1.25em;
+	}
+	.center {
+		font-size: 2em;
+	}
+
+}
+
+@media (max-width: 992px){
+
+	.container {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+
+	.one {
+		background-position: 64% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 50vh;
 		font-size: .5em;
-		margin-bottom: 325px;
+		margin-bottom: 375px;
 		
 	}
 
