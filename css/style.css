@@ -145,6 +145,7 @@ nav .google:hover {
 		height: 50vh;
 		font-size: .75em;
 		margin-bottom: 375px;
+		padding-top: 50px;
 		
 	}
 
@@ -155,6 +156,7 @@ nav .google:hover {
 		display: inline-block;
 		text-align: center;
 		margin: 0 auto;
+		margin-top: 0 auto;
 	}
 
 	.main {
@@ -171,7 +173,7 @@ nav .google:hover {
 	
 	}
 	.name {
-		margin-top: 20px;
+		margin-top: 0px;
 		
 
 	}
@@ -179,9 +181,10 @@ nav .google:hover {
 		font-size: 1.25em;
 	}
 	.center {
-		margin-top: 20px;
+		margin-top: 0px;
 		font-size: 2em;
 	}
 
 }
+
 
