@@ -100,13 +100,33 @@ nav .google:hover {
 	font-weight: bold;
 	margin-left: 2px;
 	text-align: center;
+	font-size: x-large;
 
 }
 
 
-.two{
+.two {
+	height: 100vh;
 	background-color: LightGray;
 	background: url(../images/computer.png) no-repeat 50% 50%;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 2.5;
+	text-align: center;
+	padding: 20px;
+	font-size: 2.5em;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.three {
+	height: 100vh;
+	background-color: LightGray;
+	background: url(../images/computer3.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 0px;
@@ -121,12 +141,20 @@ nav .google:hover {
 
 }
 
-.background {
-
-
+.three a {
+	background: url(../images.computer3.jpg) no-repeat 50% 50%;
+	display: block;
+	width: 50px;
+	height: 50px;
 }
+
 .fun {
 	display: none;
+}
+.video iframe {
+  display: inline-block;
+  width: 440px;
+  margin: 0 30px;
 }
 
 @media (max-width: 768px){
@@ -185,10 +213,23 @@ nav .google:hover {
 	}
 	.about {
 		font-size: 1.25em;
+
+	}
+	.aboutp {
+		font-size: .7em;
 	}
 	.center {
 		margin-top: 0px;
 		font-size: 2em;
+	}
+	.video {
+		display: block;
+		margin-top: 10px;
+
+	}
+	.work {
+		margin-top: 10px; 
+		margin-bottom: 0;
 	}
 
 }
